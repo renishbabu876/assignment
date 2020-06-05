@@ -1,0 +1,122 @@
+.heading-main {
+  position: relative;
+  font-family: Lato;
+  font-weight: 300;
+  display: inline-block;
+  color: #222;
+  font-size: 40px;
+  margin: 30px;
+  padding: 0 10px;
+  text-align: center;
+  top: 50%;
+  left: 20%; }
+
+.heading-main:before, .heading-main:after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #000;
+  width: 30px;
+  bottom: 23px; }
+
+.heading-main:before {
+  left: -30px; }
+
+.heading-main:after {
+  right: -30px; }
+
+.heading-primary {
+  text-align: center;
+  text-transform: uppercase; }
+
+.header {
+  background-image: url(../img/header-image.jpg);
+  height: 400px;
+  width: 1351px;
+  background-position: top;
+  background-size: cover; }
+
+.nature-logo {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+  top: -5rem;
+  left: 11rem; }
+
+.container {
+  position: relative; }
+
+.container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -28px;
+  left: -105px;
+  height: 129%;
+  width: 118%;
+  background: linear-gradient(to bottom, rgba(232, 208, 148, 0.3) 0%, rgba(232, 208, 148, 0.8) 100%); }
+
+.navigation {
+  color: #fff; }
+  .navigation_item {
+    text-align: center;
+    margin-top: 1rem;
+    word-spacing: 1rem; }
+  .navigation_list {
+    list-style: none;
+    display: inline-block; }
+  .navigation_link {
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000; }
+
+.form {
+  background-color: #fff;
+  position: relative;
+  top: 5%;
+  right: 55%;
+  width: 17rem;
+  left: 62rem;
+  height: 18rem;
+  margin-top: 1rem; }
+  .form_heading {
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem; }
+  .form_group {
+    margin-bottom: 1rem;
+    text-align: center; }
+  .form_input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all .3s; }
+  .form__label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: .7rem;
+    display: block;
+    transition: all .3s; }
+  .form_btn {
+    font-size: 22px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background-color: yellow;
+    padding: 10px;
+    margin-left: 3rem; }

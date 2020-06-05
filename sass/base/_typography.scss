@@ -1,0 +1,32 @@
+.heading-main {
+    position:relative;
+    font-family:Lato;
+    font-weight:300;
+    display:inline-block;
+    color:#222;
+    font-size:40px;
+    margin:30px;
+   
+    padding:0 10px;
+    text-align: center;
+    top: 50%;
+    left: 20%;
+}
+
+.heading-main:before,.heading-main:after {
+    position:absolute;
+    content:"";
+    border-bottom:2px solid $color-black;
+    width:30px;
+    bottom:23px
+}
+.heading-main:before {
+    left:-30px
+}
+.heading-main:after {
+    right:-30px
+}
+.heading-primary {
+    text-align: center;
+    text-transform: uppercase;
+}

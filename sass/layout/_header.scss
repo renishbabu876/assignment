@@ -1,0 +1,36 @@
+.header {
+    background-image: url(../img/header-image.jpg);
+    height: 400px;
+    width: 1351px;
+    background-position: top;
+    background-size: cover;
+
+   
+
+    
+    
+    
+}
+.nature-logo {
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    top: -5rem;
+    left: 11rem;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -28px;
+    left: -105px;
+    height: 129%;
+    width: 118%; 
+    background: linear-gradient(to bottom, rgba(232,208,148,0.3) 0%,rgba(232,208,148,0.8) 100%);
+  }
